@@ -1,0 +1,13 @@
+#container {
+    background-color: #DDDDDD;
+    height: 250px;
+    padding: 20px;
+  }
+  .inline_block {
+    display: inline-block;
+   
+    background-color: red;
+    padding: 50px;
+    color: white;
+    font-family: arial;
+  }
