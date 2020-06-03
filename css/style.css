@@ -1,13 +1,143 @@
-#container {
-    background-color: rgb(52, 59, 161);
-    height: 250px;
-    padding: 20px;
-  }
-  .inline_block {
-    display: inline-block;
-   
-    background-color: red;
-    padding: 50px;
-    color: white;
-    font-family: arial;
-  }
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  /*color: green;*/
+}
+
+/* mouse over link */
+a:hover {
+  
+  color: grey;
+  
+}
+
+/* selected link */
+a:active {
+  
+  /*color: blue;*/
+}
+
+.container1 {
+  
+  background-color: rgb(210, 210, 210);
+  /*height: 150px;
+  padding: 20px;*/
+/*
+border-color; rgb(255, 0, 0);
+border-bottom-style: solid;
+border-width: 3px;
+*/
+border-style: none none solid none;
+border-width: 2px;
+border-color: rgb(120,120,120);
+
+}
+.inline_block {
+  display: inline-block;
+  width: 100px;
+  background-color: rgb(77, 77, 77);
+  padding: 30px;
+  /*width:80px;*/
+  color: white;
+  font-family: arial;
+  text-align: center;
+  
+}
+.leftbar {
+  background-color: rgb(242, 242, 242);
+  height: 1200px;
+  width: 30%;
+  float: left
+}
+.rightbar {
+  
+  background-color: rgb(238,238,238);
+
+  height: 1200px;
+  width: 70%;
+  
+  float: left;
+}
+
+.lefttop{
+background-color: rgb(238,238,238);
+height: 40%;
+/*width: 200px;*/
+float: top;
+border-style: none solid solid none;
+border-width: 1px;
+border-color: rgb(120,120,120);
+text-align:center;
+
+}
+.topleftimage {
+display: block;
+padding-top: 40px;
+margin-left: auto;
+margin-right: auto;
+padding-bottom:20px;
+width: 50%;
+/*box-shadow:         8px 8px 29px #555;*/
+}
+
+.leftbottom{
+background-color: rgb(238,238,238);
+height: 60%;
+border-style: none solid solid none;
+border-width: 1px;
+border-color: rgb(120,120,120);
+}
+.list1 {
+
+padding-top: 40px;
+padding-left: 15%;
+width: 75%;   
+}
+.list {
+
+/*padding-top: 20px;*/
+padding-left: 15%;
+width: 75%;   
+}
+.rightbartop {
+margin: 30px;
+width: 750;
+padding: 30px;
+border-style: solid;
+border-width: 1px;
+border-color: rgb(120,120,120);
+}
+.images{
+float: left;
+margin-right: 30px;
+margin-bottom: 30px;
+margin-top: 40px;
+width: 50%;
+height: 30%;
+box-shadow:         8px 8px 29px #555;
+
+}
+.rightbarbottom {
+  margin: 30px;
+  width: 750;
+  padding: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(120,120,120);
+  text-align: center;
+}
+.images2{
+display: inline-block;
+
+
+margin-right: 30px;
+margin-bottom: 30px;
+margin-top: 30px;
+margin-left: 30px;
+width: 25%;
+box-shadow:         8px 8px 29px #555;
+}
