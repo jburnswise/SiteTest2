@@ -11,3 +11,13 @@ html, body {
     top: 0px;
     z-index: 1;
   }
+  .sketchface {
+    width: 400px;
+    height: 400px;
+  }
+  .behind {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+  }
