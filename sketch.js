@@ -1,5 +1,6 @@
 //var xoff1 = 0;
 //var xoff2 = 10000;
+
 var inc = 0.1;
 var scl = 10;
 var cols, rows;
@@ -14,10 +15,9 @@ var particles = [];
 var flowfield;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(400, 400);
   cols = floor(width / scl);
   rows = floor(height / scl);
-  
   
   fr = createP (' ');
   
@@ -51,7 +51,7 @@ function draw() {
         //line(0, 0, scl, 0);
         
         //pop();
- 
+
     }
     yoff += inc;
     
@@ -63,11 +63,11 @@ function draw() {
   particles[i].update();
   particles[i].edges();
   particles[i].show();
-  
     
   }
-  
+
   fr.html(floor(frameRate()));
  // noiseDetail(4);
   //noLoop();
+
 }
